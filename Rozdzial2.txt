@@ -1,7 +1,7 @@
 Rozdzial2
 
-git config --global user.name mojlogin
-git config --global user.email adres@costam.pl
+git config --global user.name andrepetitprince
+git config --global user.email andreasas777@gmail.com
 
 mkdir projekt1
 cd projekt1
@@ -19,3 +19,27 @@ echo Rozdzial2 > Rozdzial2.txt
 echo Rozdzial3 > Rozdzial3.txt
 
 git add Rozdzial2.txt Rozdzial3.txt
+
+git add -u
+
+git commit
+
+git log
+
+git checkout 5262680
+
+git checkout master
+
+git remote add origin https://github.com/andrepetitprince/FEMLab1.git
+
+git branch -M main
+
+git push -u origin main
+
+git add -u
+
+git commit
+
+git push
+
+git clone
